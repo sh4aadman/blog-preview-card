@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #ffffff;
+  border: .125em solid #111111;
+  filter: drop-shadow(.5em .5em black);
+  border-radius: 1.25em;
+  width: 24em;
+  padding: 1.5em;
+}
+
+main > figure {
+    margin: 0 0 1.5em 0;
+    border-radius: .625em;
+}
+
+#blog-cover {
+    width: 100%;
+    border-radius: .625em;
+}
+
+#tag {
+    font-weight: 700;
+    font-size: .875em;
+    line-height: 150%;
+    border-radius: .25em;
+    background-color: #f4d04e;
+    padding: .25em .75em;
+    display: inline;
+}
+
+#published-time {
+    margin-top: .75em;
+    margin-bottom: .75em;
+    font-weight: 600;
+    font-size: .875em;
+    line-height: 150%;
+    color: #111111;
+}
+
+#blog-title {
+    margin-bottom: .75em;
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 150%;
+    color: #111111;
+}
+
+#blog-info {
+    font-size: 1em;
+    line-height: 150%;
+    color: #6B6B6B;
+}
+
+#author-info {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+#author-image {
+    height: 2.25em;
+    border-radius: 50%;
+}
+
+#author-name {
+    font-weight: 700;
+    font-size: .875em;
+    line-height: 150%;
+}
+
+@media (max-width: 425px) {
+    main {
+        width: 80%;
+    }
+}
